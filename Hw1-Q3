@@ -4,7 +4,7 @@
 
 int main(void) {
     int popularity, size;
-    double homeValue;
+    long long homeValue;
 
     printf("Enter popularity: ");
     scanf("%d", &popularity);
@@ -13,7 +13,29 @@ int main(void) {
     scanf("%d", &size);
     
     homeValue = (pow(popularity, 3) + pow(size, 2)) * 10000;
-    printf("Home value is: %llf TL\n", homeValue);
+    printf("Home value is: %d TL\n", homeValue);
     
     return 0;
 }
+
+
+
+
+
+Enter popularity: 5
+Enter size: 2
+Home value is: 1290000 TL
+
+--------------------------------
+Process exited after 2.191 seconds with return value 0
+Press any key to continue . . .
+
+
+
+
+
+
+
+
+
+
