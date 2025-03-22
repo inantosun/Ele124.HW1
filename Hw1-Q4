@@ -18,6 +18,17 @@ int main(void) {
     return 0;
 }
 
+Enter popularity: 5
+Enter size: 2
+Home value is: 1290000 TL
+
+--------------------------------
+Process exited after 9.446 seconds with return value 0
+Press any key to continue . . .
+
+
+
+
 
 /* Q4b: Void Function Version */
 #include <stdio.h>
@@ -41,3 +52,15 @@ int main(void) {
     computeHomeValue();
     return 0;
 }
+
+
+
+
+
+Enter popularity: 5
+Enter size: 2
+Home value is: 1290000 TL
+
+--------------------------------
+Process exited after 2.606 seconds with return value 0
+Press any key to continue . . .
